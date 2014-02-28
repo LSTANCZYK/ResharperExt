@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Byrom.ResharperExt</id>
+    <version>1.2</version>
+    <title>Resharper Extensions</title>
+    <authors>Roberto Huertas</authors>
+    <projectUrl>https://github.com/codecoding/ResharperExt</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Two new macros for Resharper Templates:
+      1-Capitalize referenced variable.
+      2-Capitalize and put a _ before capitals of a referenced variable.
+      3-Current file name without any extension.
+      4-Another variable's value in singular.
+    </description>
+    <releaseNotes></releaseNotes>
+    <tags>Resharper, Capitalize</tags>
+	<dependencies>
+		<dependency id="ReSharper" version="8.0" />
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\Release\ResharperExt.dll" target="ReSharper\v8.1\plugins\" />
+  </files>
+</package>
