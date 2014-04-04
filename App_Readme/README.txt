@@ -1,6 +1,6 @@
 ﻿How to install plugins:
 
-- Go to C:\Program Files (x86)\JetBrains\ReSharper\v8.1\Bin
+- Go to C:\Program Files (x86)\JetBrains\ReSharper\v8.2\Bin
 - if you don't find a Plugin folder there then you'll have to create it
 - Create a folder with this Name ResharperExt (the name of the plugin's project)
 - Put inside the dll of the plugin

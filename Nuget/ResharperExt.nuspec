@@ -17,10 +17,10 @@
     <releaseNotes></releaseNotes>
     <tags>Resharper, Capitalize</tags>
 	<dependencies>
-		<dependency id="ReSharper" version="8.0" />
+		<dependency id="ReSharper" version="[8.0, 8.3)" />
 	</dependencies>
   </metadata>
   <files>
-    <file src="..\bin\Release\ResharperExt.dll" target="ReSharper\v8.1\plugins\" />
+    <file src="..\bin\Release\ResharperExt.dll" target="ReSharper\v8.2\plugins\" />
   </files>
 </package>
